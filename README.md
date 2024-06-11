@@ -2,7 +2,7 @@ This documents the process it took to execute this project using PostgreSQL.
 
 In this project two tables were used "Customers" and "Orders" for the retail companies database.
 
-#Creating the tables.
+# Creating the tables.
 
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
@@ -18,7 +18,7 @@ CREATE TABLE Orders (
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
-#importing the values into the tables.
+# importing the values into the tables.
 
 (this command was used to import a data set from a csv this applies to both tables)
 
